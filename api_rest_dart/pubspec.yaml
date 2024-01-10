@@ -1,0 +1,23 @@
+name: api_rest_dart
+description: A server app using the shelf package and Docker.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>2.12.0'
+
+dependencies:
+  args: ^2.3.0 # Update ke versi terbaru jika diperlukan
+  intl: '0.17.0' # Update ke versi terbaru jika diperlukan
+  mysql1: ^0.20.0 # Update ke versi terbaru jika diperlukan
+  shelf: ^1.6.0 # Update ke versi terbaru jika diperlukan
+  shelf_router: ^1.5.0 # Update ke versi terbaru jika diperlukan
+  string_validator: ^1.0.3 # Update ke versi terbaru jika diperlukan
+  dart_frog: ^1.0.0 # Update ke versi terbaru jika diperlukan
+  aquedart: ^5.0.4 # Update ke versi terbaru jika diperlukan
+  shelf_cors_headers: ^0.1.6 # Update ke versi terbaru jika diperlukan
+
+dev_dependencies:
+  http: ^0.14.0 # Update ke versi terbaru jika diperlukan
+  lints: '>=2.2.0' # Update ke versi terbaru jika diperlukan
+  test: '>=1.21.0' # Update ke versi terbaru jika diperlukan
